@@ -55,7 +55,9 @@ There is two important aspects of robotics which are: the robustness of the prog
 
 <p align="center">
   <img src="./imgs/3d_reconstruction.png">
-*This image is the 3d scene that we will try to reconstruct*
+</p>
+<p align="center">
+  <i>This image is the 3d scene that we will try to reconstruct</i>
 </p>
 
 
@@ -81,7 +83,9 @@ Here are the images from the two cameras :
 
 <p align="center">
   <img src="./imgs/left_image.png">
-*Left and right image of the 3d scene*
+</p>
+<p align="center">
+  <i>Left and right image of the 3d scene</i>
 </p>
 
 
@@ -98,7 +102,9 @@ The result of the Canny algorithm on the provenance image of the left camera:
 
 <p align="center">
   <img src="./imgs/canny.png">
-*Result of the Canny algorithm on the left image*
+</p>
+<p align="center">
+  <i>Result of the Canny algorithm on the left image</i>
 </p>
 
 
@@ -117,7 +123,9 @@ The aim is to calculate all the back projection rays for all the points in order
 
 <p align="center">
   <img src="./imgs/explication_1.png">
-*The back projection line is represented by the "O, P(X,Y,Z)" line*
+</p>
+<p align="center">
+  <i>The back projection line is represented by the "O, P(X,Y,Z)" line</i>
 </p>
 
 
@@ -128,7 +136,9 @@ Since our two cameras have the same vertical coordinates, we only need to draw a
 
 <p align="center">
   <img src="./imgs/explication_2.png">
-*Epipolar line explained*
+</p>
+<p align="center">
+  <i>Epipolar line explained</i>
 </p>
 
 
@@ -140,14 +150,19 @@ I used the cv2.TM_CCOEFF_NORMED method (shifted mean cross-correlation).
 
 <p align="center">
   <img src="./imgs/formula.png">
-*Shifted mean cross-correlation, used in the matchTemplate() function*
+</p>
+<p align="center">
+  <i>Shifted mean cross-correlation, used in the matchTemplate() function</i>
 </p>
 
 
 <p align="center">
   <img src="./imgs/match.jpg">
-*Exemple of the matchTemplate() function*
 </p>
+<p align="center">
+  <i>Exemple of the matchTemplate() function</i>
+</p>
+
 
 ### 5. Triangulation
 
@@ -156,7 +171,9 @@ This intersection (or where the spacing between the two lines is less) will be t
 
 <p align="center">
   <img src="./imgs/explication_3.webp">
-*X point will be the 3D point in the scene*
+</p>
+<p align="center">
+  <i>X point will be the 3D point in the scene</i>
 </p>
 
 ### 6. Results
@@ -167,14 +184,17 @@ This is due to the result of the canny edge detector which takes into account th
 
 <p align="center">
   <img src="./imgs/10K.png">
-*Result with 10.000 features points*
+</p>
+<p align="center">
+  <i>Result with 10.000 features points</i>
 </p>
 
 <p align="center">
   <img src="./imgs/18k3.png">
-*Result with 18.300 features points*
 </p>
-
+<p align="center">
+  <i>Result with 18.300 features points</i>
+</p>
 
 
 [![Youtube video](./imgs/youtube.png)](https://www.youtube.com/watch?v=jVXUgUmOpTs&ab_channel=Luis)
