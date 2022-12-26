@@ -122,7 +122,7 @@ This line passes through the optical centre (left camera position) and through t
 The aim is to calculate all the back projection rays for all the points in order to find the 3D position of each of them.
 
 <p align="center">
-  <img src="./imgs/explication_1.png">
+  <img src="./imgs/explication_1.jpg">
 </p>
 <p align="center">
   <i>The back projection line is represented by the "O, P(X,Y,Z)" line</i>
