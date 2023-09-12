@@ -17,7 +17,7 @@ You can find more information about my project here : [My website](https://poube
 
 ## Requirements
 
-* Python 3.7+
+* Python 3.9+
 * [Unibotics](https://unibotics.org) account
 * Go to [this website](https://unibotics.org/academy/3d_reconstruction_newmanager/)
 
